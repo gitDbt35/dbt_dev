@@ -1,0 +1,7 @@
+sources:
+  - name: restaurant
+    database: DBT_test  
+    schema: restaurant_db  
+    tables:
+      - name: order_details_inc
+      - name: menu_items_inc
